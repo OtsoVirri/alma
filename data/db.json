@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "email": "otso.virri@gmail.com",
+      "firstName": "Otso",
+      "lastName": "Virri",
+      "userType": "student",
+      "password": "123abc",
+      "confirmedPassword": "123abc"
+    },
+    {
+      "id": "124",
+      "email": "jaska.jokunen@opettaja.fi",
+      "firstName": "Jaska",
+      "lastName": "Jokunen",
+      "userType": "teacher",
+      "password": "123abc",
+      "confirmedPassword": "123abc"
+    },
+    {
+      "id": "233",
+      "email": "maija.mehilainen@opettaja.fi",
+      "firstName": "Maija",
+      "lastName": "Mehiläinen",
+      "userType": "teacher",
+      "password": "123abc",
+      "confirmedPassword": "123abc"
+    },
+    {
+      "id": "133",
+      "email": "mikko.mallikas@gmail.com",
+      "firstName": "Mikko",
+      "lastName": "Mallikas",
+      "userType": "student",
+      "password": "123abc",
+      "confirmedPassword": "123abc"
+    },
+    {
+      "email": "ville@example.fi",
+      "firstName": "Ville",
+      "lastName": "Vilhunen",
+      "userType": "student",
+      "password": "Ville123",
+      "id": "BWzb4dZ"
+    },
+    {
+      "email": "natsiope@suomi24.fi",
+      "firstName": "Jarmo",
+      "lastName": "Tiukkanen",
+      "userType": "teacher",
+      "password": "Jarmo123",
+      "id": "gwwOVTx"
+    },
+    {
+      "email": "uusiopettaja@example.edu",
+      "firstName": "Heimo",
+      "lastName": "Huima",
+      "userType": "teacher",
+      "password": "Heimo123",
+      "id": "dR_es3u"
+    },
+    {
+      "email": "mallioppilas@koulu.edu",
+      "firstName": "Maija",
+      "lastName": "Mallikas",
+      "userType": "student",
+      "password": "Maija123",
+      "id": "87wvbBM"
+    },
+    {
+      "email": "otsoesimerkki@example.fi",
+      "firstName": "Otso",
+      "lastName": "Virri",
+      "userType": "student",
+      "password": "123123",
+      "id": "kKePgy8"
+    },
+    {
+      "email": "",
+      "firstName": "",
+      "lastName": "",
+      "userType": "student",
+      "password": "",
+      "id": "dr9W4oT"
+    },
+    {
+      "email": "asdasd",
+      "firstName": "Otso",
+      "lastName": "",
+      "userType": "student",
+      "password": "",
+      "id": "8-e-rg1"
+    }
+  ],
+  "courses": [
+    {
+      "name": "ATK - Magian alkeet",
+      "description": "Me emme tiedä mitä tapahtuu todella, jos yksinkertainenkin muutos antaa mahdollisuuden parantaa laajentuvia markkinoita ja uusia induktiivisia tuotantomenetelmiä.",
+      "teacher": "Heimo Huima",
+      "userId": "dR_es3u",
+      "startDate": "2021-01-11",
+      "endDate": "2021-02-07",
+      "literature": "Matemaatikotkaan eivät kysele mitä numerot ovat",
+      "courseType": "Verkkokurssi / Moodle",
+      "points": 3,
+      "id": 1
+    },
+    {
+      "name": "Yksinäinen onkiminen",
+      "description": "Tapahtumat viime aikoina osoittavat, että organisaation uusi toimintakaavio asettaa tahomme tukalaan tilanteeseen ajateltaessa vastuunalaisia kontradiktioita.",
+      "teacher": "Heimo Huima",
+      "userId": "dR_es3u",
+      "startDate": "2021-01-05",
+      "endDate": "2021-01-30",
+      "literature": "Moodlemateriaalit verkossa",
+      "courseType": "Verkkokurssi / Moodle",
+      "points": 3,
+      "id": 2
+    },
+    {
+      "name": "Villinlännen kaksintaistelu",
+      "description": "Käytännön täytyy turvautua tarkoituksenmukaisiin keinoihin, jos kokonaisvaltainen työtapa parantaa hiusten halkomiseksi osoittautunutta geneerisyyttä.",
+      "teacher": "Heimo Huima",
+      "userId": "dR_es3u",
+      "startDate": "2021-01-15",
+      "endDate": "2021-01-31",
+      "literature": "Revolverin huolto",
+      "courseType": "Käytännön läheinen lähiopetus",
+      "points": 3,
+      "id": 3
+    },
+    {
+      "name": "Esimerkkikurssi",
+      "description": "Eräitä yksityiskohtia lukuunottamatta normaali substanssi järkeistää käsitystämme kyseisestä asiakokonaisuudesta, mihin tavallaan liittyy myös hiusten halkomiseksi osoittautunutta geneerisyyttä.",
+      "teacher": "Heimo Huima",
+      "userId": "dR_es3u",
+      "startDate": "2021-01-04",
+      "endDate": "2021-02-07",
+      "literature": "Lorem ipsum dolor sit amet",
+      "courseType": "Käytännön läheinen lähiopetus",
+      "points": 3,
+      "id": 4
+    },
+    {
+      "name": "Yksinäinen onkiminen",
+      "description": "Kurssi",
+      "teacher": "Heimo Huima",
+      "userId": "dR_es3u",
+      "startDate": "2020-10-26",
+      "endDate": "2021-01-01",
+      "literature": "Orwell 1984",
+      "courseType": "Lähiopetus",
+      "points": 3,
+      "id": 5
+    }
+  ],
+  "feedbacks": [
+    {
+      "feedback": "Tällä kurssilla opin todella paljon hevosista, kiitos!",
+      "courseId": 1,
+      "timestamp": "2021-01-22T05:19:54.544Z",
+      "id": 1
+    },
+    {
+      "feedback": "Kalat pitivät seuraa.",
+      "courseId": 2,
+      "timestamp": "2021-01-22T05:21:06.647Z",
+      "id": 2
+    },
+    {
+      "feedback": "Voisi olla vähän vähemmän fyysinen kurssi.",
+      "courseId": 3,
+      "timestamp": "2021-01-22T05:21:39.183Z",
+      "id": 3
+    },
+    {
+      "feedback": "Ei tällä kurssilla kyllä mitään ongittu, silkkaa humpuukia.",
+      "courseId": 2,
+      "timestamp": "2021-01-22T05:22:57.918Z",
+      "id": 4
+    },
+    {
+      "feedback": "Kiva kurssi oli, kiitos!",
+      "courseId": 2,
+      "timestamp": "2021-01-22T06:30:41.647Z",
+      "id": 5
+    }
+  ],
+  "enrollments": [
+    {
+      "userId": "87wvbBM",
+      "courseId": 1,
+      "timestamp": "2021-01-22T05:20:04.136Z",
+      "id": 1
+    },
+    {
+      "userId": "87wvbBM",
+      "courseId": 2,
+      "timestamp": "2021-01-22T06:31:02.872Z",
+      "id": 2
+    },
+    {
+      "userId": "87wvbBM",
+      "courseId": 3,
+      "timestamp": "2021-01-22T12:28:34.970Z",
+      "id": 3
+    }
+  ]
+}
