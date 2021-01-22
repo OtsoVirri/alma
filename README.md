@@ -18,16 +18,16 @@ npm build
 
 # Dependencies
 ALMA was created using the following depending technologies:
-    bootstrap: "^4.6.0",
-    jquery: "^3.5.1",
-    json-server: "^0.16.3",
-    node-sass: "^4.14.1",
-    react: "^17.0.1",
-    react-bootstrap: "^1.4.3",
-    react-dom: "^17.0.1",
-    react-router-dom: "^5.2.0",
-    react-scripts: "4.0.1",
-    web-vitals: "^0.2.4"
+bootstrap: "^4.6.0"
+jquery: "^3.5.1"
+json-server: "^0.16.3"
+node-sass: "^4.14.1"
+react: "^17.0.1"
+react-bootstrap: "^1.4.3"
+react-dom: "^17.0.1"
+react-router-dom: "^5.2.0"
+react-scripts: "4.0.1"
+web-vitals: "^0.2.4"
 
 react-router-dom takes care of path navigation to pages in the application.
 App.js renders component files from the /pages folder.
