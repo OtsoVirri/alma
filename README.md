@@ -4,7 +4,9 @@ This project has been created with React.
 
 ALMA is a service for students and teachers. Users can register and login to the service, review ongoing courses, leave feedback to courses, sign up for courses and create new ones.
 
-# Scripts
+# Command line
+After modules are installed the following scripts are available
+
 Run the fake REST API on JSON-server:
 npm run server
 
